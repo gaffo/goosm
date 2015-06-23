@@ -1,0 +1,53 @@
+<osmChange version="0.6" generator="JOSM">
+<create>
+  <node id='-43' changeset='1' lat='46.15781291358' lon='-123.74319111164' />
+  <node id='-45' changeset='1' lat='46.15818806149' lon='-123.73899374832' />
+  <node id='-41' changeset='1' lat='46.15903213493' lon='-123.742920314' />
+  <node id='-47' changeset='1' lat='46.15987619543' lon='-123.73506718263' />
+  <node id='-39' changeset='1' lat='46.16053267797' lon='-123.74143092702' />
+  <node id='-49' changeset='1' lat='46.16100158928' lon='-123.73276540274' />
+  <node id='-51' changeset='1' lat='46.16156427758' lon='-123.72802644415' />
+  <node id='-37' changeset='1' lat='46.16193939991' lon='-123.74156632584' />
+  <node id='-53' changeset='1' lat='46.16240829923' lon='-123.72369368201' />
+  <node id='-29' changeset='1' lat='46.1641900802' lon='-123.74982565366' />
+  <node id='-31' changeset='1' lat='46.16447140876' lon='-123.74779467141' />
+  <node id='-33' changeset='1' lat='46.16465896033' lon='-123.74630528443' />
+  <node id='-27' changeset='1' lat='46.16475273588' lon='-123.75293982645' />
+  <node id='-35' changeset='1' lat='46.1649402865' lon='-123.74413890336' />
+  <node id='-25' changeset='1' lat='46.16644066841' lon='-123.7533460229' />
+  <node id='-23' changeset='1' lat='46.16859739571' lon='-123.75266902882' />
+  <node id='-21' changeset='1' lat='46.17028521027' lon='-123.75253363' />
+  <node id='-19' changeset='1' lat='46.17234802439' lon='-123.75280442764' />
+  <node id='-17' changeset='1' lat='46.17431700206' lon='-123.75307522527' />
+  <node id='-15' changeset='1' lat='46.17516082806' lon='-123.7517212371' />
+  <node id='-13' changeset='1' lat='46.17600464111' lon='-123.75036724893' />
+  <node id='-10' changeset='1' lat='46.17619215336' lon='-123.74833626668' />
+  <node id='-7' changeset='1' lat='46.17862975445' lon='-123.74576368916' />
+  <way id='-11' changeset='1'>
+    <nd ref='-7' />
+    <nd ref='-10' />
+    <nd ref='-13' />
+    <nd ref='-15' />
+    <nd ref='-17' />
+    <nd ref='-19' />
+    <nd ref='-21' />
+    <nd ref='-23' />
+    <nd ref='-25' />
+    <nd ref='-27' />
+    <nd ref='-29' />
+    <nd ref='-31' />
+    <nd ref='-33' />
+    <nd ref='-35' />
+    <nd ref='-37' />
+    <nd ref='-39' />
+    <nd ref='-41' />
+    <nd ref='-43' />
+    <nd ref='-45' />
+    <nd ref='-47' />
+    <nd ref='-49' />
+    <nd ref='-51' />
+    <nd ref='-53' />
+    <tag k='ref' v='states/or/rivers/john_day' />
+  </way>
+</create>
+</osmChange>
