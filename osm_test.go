@@ -165,7 +165,7 @@ func TestEncode(t *testing.T) {
 func TestEncodeWithNode(t *testing.T) {
 	var b bytes.Buffer
 	osm := goosm.NewOsm()
-	osm.Nodes = append(osm.Nodes, goosm.Node{Id: "-1", Visible: true, Lat: 30.1, Lon: -122.33})
+	osm.AppendNode(goosm.Node{Id: "-1", Visible: true, Lat: 30.1, Lon: -122.33})
 	osm.Write(&b)
 	fmt.Println(b.String())
 	equals(t, `<osm version="0.6" upload="true" generator="github.com/gaffo/goosm"><node id="-1" visible="true" lat="30.1" lon="-122.33"></node></osm>`, b.String())

@@ -44,6 +44,18 @@ func (osm *Osm) Write(writer io.Writer) {
 	e.Flush()
 }
 
+func (osm *Osm) AppendNode(node Node) {
+	osm.Nodes = append(osm.Nodes, node)
+}
+
+func (osm *Osm) AppendWay(way Way) {
+	osm.Ways = append(osm.Ways, way)
+}
+
+func (osm *Osm) AppendRelation(relation Relation) {
+	osm.Relations = append(osm.Relations, relation)
+}
+
 type Node struct {
 	Id      string  `xml:"id,attr"`
 	Visible bool    `xml:"visible,attr"`
